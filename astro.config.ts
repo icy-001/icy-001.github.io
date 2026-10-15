@@ -12,7 +12,7 @@ import { viteStaticCopy } from "vite-plugin-static-copy"
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://yongyi781.github.io",
+  site: "https://icy-001.github.io",
 
   markdown: {
     processor: unified({
