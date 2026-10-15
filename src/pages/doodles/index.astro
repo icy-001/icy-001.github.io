@@ -5,7 +5,34 @@ import Layout from "../../layouts/Layout.astro";
 ---
 
 <Layout title={SITE_TITLE} description={SITE_DESCRIPTION}>
+  <p class="mb-4">
+    AI notice: None of the below projects were made with AI. I have made some
+    newer projects with AI but, seeing as they were made with AI, I did not find
+    them noteworthy enough to make public.
+  </p>
   <ul class="flex flex-col gap-2">
+    <li>
+      <Card name="Maia-fish" href="https://github.com/icy-001/maia-fish">
+        <p>
+          A chess client, with UI similar to Nibbler, that analyzes a position
+          using both Stockfish, a very powerful chess engine, and Maia, a
+          neural network that predicts human play.
+        </p>
+        <p class="text-gray-500 mt-4 mx-5 text-sm">Created in August 2025.</p>
+      </Card>
+    </li>
+    <li>
+      <Card
+        name="Turing machine visualizer"
+        href="https://fiery.pages.dev/turing"
+      >
+        <p>
+          An interactive Turing machine visualizer. Very focused on performance
+          and speed.
+        </p>
+        <p class="text-gray-500 mt-4 mx-5 text-sm">Created in October 2024.</p>
+      </Card>
+    </li>
     <li>
       <Card name="OEIS pretty client" href="https://fiery.pages.dev/oeis">
         <p>
