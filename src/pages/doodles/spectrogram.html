@@ -365,6 +365,8 @@
       }
 
       function drawHistory() {
+        // Empty history is transparent, so clear the previous frame's hover overlay first.
+        ctx.clearRect(0, 0, canvas.width, canvas.height)
         const rightWidth = offCanvas.width - historyX
         if (rightWidth > 0) {
           ctx.drawImage(offCanvas, historyX, 0, rightWidth, offCanvas.height, 0, 0, rightWidth, canvas.height)
