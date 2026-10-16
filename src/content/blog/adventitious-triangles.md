@@ -7,7 +7,7 @@ tags: math, geometry, fun
 
 The classic 20-80-80 triangle geometry problem looks like this.
 ![Triangle problem 3](/images/triangles/9_1_3_4.svg)
-We have an isosceles right triangle $\triangle ABC$ with angles 20°, 80°, and 80°, and lines $AE$ and $BD$ with angles as shown. The task is to find the red marked angle at $E$.
+We have an isosceles triangle $\triangle ABC$ with angles 20°, 80°, and 80°, and lines $AE$ and $BD$ with angles as shown. The task is to find the red marked angle at $E$.
 
 This is a well known problem, and you might have even seen it shared on social media at some point. You can find the solution on this [Wikipedia page](https://en.wikipedia.org/wiki/Langley%27s_Adventitious_Angles).
 
